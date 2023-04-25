@@ -1,0 +1,107 @@
+.recommended-friends {
+    margin: 25px 0px;
+    padding: 25px 0px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+}
+
+.recommended-friends__title {
+    font-size: 14px;
+    color: rgba(0,0,0,0.4);
+}
+
+.recommended-friends span {
+    margin: 100px 0px;
+    display: block;
+    text-align: center;
+    font-size: 16 pY67Ux;
+    color: rgba(0,0,0,0.4);
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+
+.open-chat__header span {
+    opacity: 0.6;
+}
+
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: var(--main-border);
+}
+
+.open-post__title {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.open-post__hastags {
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.open-post__members {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.open-post__members img {
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+.open-post__member-count {
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.open-post__members .divider {
+    width: 1.5px;
+    height: 15px;
+    background-color: rgba(0,0,0,0.2);
+    margin: 0 5px;
+}
+
+.open-post__member-status {
+    color: #ffb0e0;
+}
+
+.open-post__photo {
+    position: relative;
+}
+/*부모 요소에 relative 해줘야지 absolute가 찾을 수 있다...*/
+
+.open-post__photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.open-post__heart-count {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 7px;
+    right: 5px;
+    font-size: 12px;
+}
+
+.open-post__heart-count span {
+    margin: 1px 5px;
+}
+
+
